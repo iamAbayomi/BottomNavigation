@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QoutesApp3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">Green</string>
+    <string name="tab_2">Red</string>
+    <string name="tab_3">Blue</string>
+    <string name="tab_4">Yellow</string>
+    <string name="botomnav_title_0">BottomNavigation</string>
+
+</resources>

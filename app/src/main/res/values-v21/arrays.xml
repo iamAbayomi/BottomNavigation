@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dessert_names">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice-cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+    </string-array>
+
+    <string-array name="dessert_descriptions">
+
+      <item> "People cry not because they are week but because they have been strong for too long."</item>
+
+        <item>"Life is tough if you want to make it you have to be tougher-Oladini Abayomi"</item>
+
+        <item>"if you fail try again -Unknown"</item>
+
+       <item> "Life is too short to focus on past mistakes"</item>
+
+        <item> "Live to learn, not to earn. For when the mind can learn it will surely earn.-Oladini Abayomi"</item>
+
+        <item>"Wisdom should not be determined by age"</item>
+
+        <item>"Life is not fair; get used to it."</item>
+
+       <item> "Games are won by players who focus on the playing field, not by those whose eyes are glued to the scoreboard."</item>
+
+        <item>"It has been my observation that most poeple get ahead during the time others waste-Unknown"</item>
+
+        <item>"They laugh cause i am different i laugh cause they are the same"</item>
+
+        <item>"Without pain, there would be no suffering. Without suffering, we would never learn from our mistakes.To make it right pain and sufferring is the key to all windows, without there is no way of life. "</item>
+
+        <item>"A man face is his autobiography. A woman's face is her work of fiction. "</item>
+
+        <item>"When people say they can't see anything good in you, hug them and say: 'life is difficult for the blind'!"</item>
+
+        <item>"If you have the opportunity to play this game of life, you need to appreciate every moment. A lot of people dont't appreciate the moment until it's passed."</item>
+
+        <item>"Your Success is 80% Psychology and 20% fundamental"</item>
+
+        <item>"Failure meant stripping away of the inessential"</item>
+
+
+        <item>"Invest in yourself trust me you can afford it"</item>
+
+        <item>"You gotta run more than your mouth to escape the treadmill of mediocrity"</item>
+
+        <item>"When everything seems to be going against you, remember that the airplane takes off against the wind, not with it"</item>
+
+        <item>"The only disability in life in lfe is a a bad attitude"</item>
+
+        <item>"if you want to fly, give up things that weigh you down"</item>
+
+        <item>"To many people are living for compliments, instead of living for accomplishments"</item>
+
+        <item>"Those who forgive themselves, and are able to accept their true nature they are the strong ones-Itachi Uchiha"</item>
+
+        <item>"The difference between the novice and the master is that the master has failed more times than the novice has tried"</item>
+
+        <item>"The biggest risk is not taking any risk  In a world that changing really quickly, the only strategy that is guaranteed to fail is not taking risks."</item>
+
+        <item>"I know nothing more of a man's ambition than that his son be the best of men. -Plato"</item>
+
+        <item>"Not because someone asks means you should tell"</item>
+
+        <item>"You have to diffentiate between what you want and what you get"</item>
+
+        <item>"Money like time will come and go, it what you do with it that matters."</item>
+    </string-array>
+
+    <!--
+    <item>A small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, icing and other cake decorations, such as candy, may be applied.</item>
+    <item>A type of fried dough confectionery or dessert food.</item>
+    <item>An oblong pastry made with choux dough filled with a cream and topped with icing.</item>
+    <item>Frozen yogurt is a frozen dessert made with yogurt and sometimes other dairy products. It is usually more tart than ice cream, as well as being lower in fat. It is different from ice milk and conventional soft serve.</item>
+    <item>Refers to a broad category of baked goods, typically flavored with ginger, cloves, nutmeg or cinnamon and sweetened with honey, sugar or molasses.</item>
+    <item>A mass of hexagonal wax cells built by honey bees in their nests to contain their larvae and stores of honey and pollen. Beekeepers may remove the entire honeycomb to harvest honey.</item>
+    <item>A frozen dessert consisting of ice cream between two wafers, cookies, or other similar biscuit.</item>
+    <item>Small bean-shaped sugar candies with soft candy shells and thick gel interiors. The confection comes in a wide variety of colors and flavors.</item>
+    <item>A chocolate-covered wafer bar confection created by Rowntree of York, England, and is now produced globally by Nestle.</item>
+    <item>A type of confectionery consisting of a sweetmeat of hard candy or water-ice mounted on a stick and intended for sucking or licking. Different informal terms are used in different places, including lolly, sucker, sticky-pop, etc.</item>
+    <item>A sugar-based confection that, in its modern form, typically consists of sugar, water and gelatin which is whipped to a spongy consistency, molded into small cylindrical pieces, and coated with corn starch.</item>
+    <item>A family of confections made with sugar or honey, roasted nuts, whipped egg whites, and sometimes chopped candied fruit. The consistency of nougat is chewy, and it is used in a variety of candy bars and chocolates.</item>-->
+</resources>
