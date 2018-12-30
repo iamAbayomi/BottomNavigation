@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        toolbar =(Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.bottomtab_0)));
@@ -103,22 +103,19 @@ public class MainActivity extends AppCompatActivity {
                 });*/
 
 
-
-
-
         bottomNavigation.setOnTabSelectedListener(new AHBottomNavigation.OnTabSelectedListener() {
 
             //final DummyFragment fragment = new DummyFragment();
 
             @Override
             public boolean onTabSelected(int position, boolean wasSelected) {
-              //  fragment.updateColor(ContextCompat.getColor(MainActivity.this, colors[position]));
-                if(!wasSelected)
+                //  fragment.updateColor(ContextCompat.getColor(MainActivity.this, colors[position]));
+                if (!wasSelected)
                     viewPager.setCurrentItem(position);
 
                 //remove notification badge
-                int lastItemPos = bottomNavigation.getItemsCount() -1;
-                if(notificationVisible && position == lastItemPos)
+                int lastItemPos = bottomNavigation.getItemsCount() - 1;
+                if (notificationVisible && position == lastItemPos)
                     bottomNavigation.setNotification(new AHNotification(), lastItemPos);
 
                 return true;
@@ -128,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setOnTabSelectedListener(new AHBottomNavigation.OnTabSelectedListener() {
             @Override
             public boolean onTabSelected(int position, boolean wasSelected) {
-                if(position==0){
+                if (position == 0) {
                     getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.bottomtab_0)));
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         Window window = getWindow();
@@ -136,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                         window.setStatusBarColor(getResources().getColor(R.color.bottomtab_0));
                     }
                 }
-                if(position ==1){
+                if (position == 1) {
                     getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.bottomtab_1)));
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         Window window = getWindow();
@@ -144,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                         window.setStatusBarColor(getResources().getColor(R.color.bottomtab_1));
                     }
                 }
-                if(position ==2){
+                if (position == 2) {
                     getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.bottomtab_2)));
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         Window window = getWindow();
@@ -153,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-                if(position ==3) {
+                if (position == 3) {
                     getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.bottomtab_3)));
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         Window window = getWindow();
@@ -163,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }
-                    return true;
+                return true;
             }
         });
     }
@@ -179,7 +176,6 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
 
-
     public void setupBottomNavBehaviors() {
 //        bottomNavigation.setBehaviorTranslationEnabled(false);
 
@@ -193,26 +189,26 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setTranslucentNavigationEnabled(false);
     }
 
-private void setupBottomNavStyle(){
+    private void setupBottomNavStyle() {
 
-    //Setting the very 1st item as home Screen.
-    // bottomNavigation.setCurrentItem(0);
-    bottomNavigation.setDefaultBackgroundColor(Color.WHITE);
-    bottomNavigation.setAccentColor(fetchColor(R.color.bottomtab_0));
-    bottomNavigation.setInactiveColor(fetchColor(R.color.bottomtab_item_resting));
+        //Setting the very 1st item as home Screen.
+        // bottomNavigation.setCurrentItem(0);
+        bottomNavigation.setDefaultBackgroundColor(Color.WHITE);
+        bottomNavigation.setAccentColor(fetchColor(R.color.bottomtab_0));
+        bottomNavigation.setInactiveColor(fetchColor(R.color.bottomtab_item_resting));
 
-    // Colors for selected (active) and non-selected items (in color reveal mode).
-    bottomNavigation.setColoredModeColors(Color.WHITE,
-            fetchColor(R.color.bottomtab_item_resting));
+        // Colors for selected (active) and non-selected items (in color reveal mode).
+        bottomNavigation.setColoredModeColors(Color.WHITE,
+                fetchColor(R.color.bottomtab_item_resting));
 
-    //  Enables color Reveal effect
-    bottomNavigation.setColored(true);
+        //  Enables color Reveal effect
+        bottomNavigation.setColored(true);
 
-    //Displays item Title always( for selected and non-sselected items)
-    bottomNavigation.setTitleState(AHBottomNavigation.TitleState.ALWAYS_SHOW);
-     bottomNavigation.setTranslucentNavigationEnabled(true);
-    // bottomNavigation.setBehaviorTranslationEnabled(true);      
-}
+        //Displays item Title always( for selected and non-sselected items)
+        bottomNavigation.setTitleState(AHBottomNavigation.TitleState.ALWAYS_SHOW);
+        bottomNavigation.setTranslucentNavigationEnabled(true);
+        // bottomNavigation.setBehaviorTranslationEnabled(true);
+    }
 
 
 
@@ -263,7 +259,7 @@ private void setupBottomNavStyle(){
 
         AHBottomNavigationItem item1 = new AHBottomNavigationItem(R.string.tab_1, R.drawable.ic_brightness_1_black_24dp, colors[0]);
         AHBottomNavigationItem item2 = new AHBottomNavigationItem(R.string.tab_2, R.drawable.ic_brightness_1_black_24dp, colors[1]);
-        AHBottomNavigationItem item3 = new AHBottomNavigationItem( R.string.tab_3, R.drawable.ic_brightness_1_black_24dp, colors[2]);
+        AHBottomNavigationItem item3 = new AHBottomNavigationItem(R.string.tab_3, R.drawable.ic_brightness_1_black_24dp, colors[2]);
         AHBottomNavigationItem item4 = new AHBottomNavigationItem(R.string.tab_4, R.drawable.ic_brightness_1_black_24dp, colors[3]);
 
         bottomNavigation.addItem(item1);
@@ -271,7 +267,8 @@ private void setupBottomNavStyle(){
         bottomNavigation.addItem(item3);
         bottomNavigation.addItem(item4);
     }
-    private int fetchColor(@ColorRes int color){
+
+    private int fetchColor(@ColorRes int color) {
         return ContextCompat.getColor(this, color);
 
     }
